@@ -2,7 +2,7 @@ export const Features = (props) => {
   return (
     <div id='features' className='text-center'>
       <div className='container'>
-        <div className='col section-title'>
+        <div className='col section-title mb-2'>
         </div>
         <div className='row'>
           {props.data

@@ -37,12 +37,12 @@ export const Contact = (props) => {
       <div id='contact'>
         <div className='container'>
         
-        <div className='col-md-3 col-md-offset-0 contact-info'>
+        <div className='col-md-3  contact-info'>
             <div className='contact-item'>
               <h3>Contact </h3>
-              <p>
+              
               <i className='fa fa-map-marker'></i>
-Email Adress              </p>
+Email Adress              
             </div>
             <div className='contact-item'>
               <p>
@@ -71,7 +71,7 @@ Email Adress              </p>
               </div>
             </div>
           </div>
-          <div className='col-md-3 col-md-offset-1'>
+          <div className='col-md-4 col-md-offset-1'>
             <div className='contact-item'>
               <div className='section-title'>
                 <img src="img/footer.png" alt="" />
@@ -83,7 +83,7 @@ Email Adress              </p>
                 </span>
             </div>
           </div>
-          <div className='col-md-4 col-md-offset-1 contact-info'>
+          <div className='col-md-3 col-md-offset-1 contact-info'>
             <div className='contact-item'>
               <h3 style={{  textAlign: "right"}}> USEFULL LINKS</h3>
               <ul className='contact-item li'> <li>

@@ -77,18 +77,29 @@ ol {
   moz-padding: 0;
 }
 hr {
-  height: 2px;
-  width: 70px;
+  height: 1px;
+  width:100%;
   text-align: center;
   position: relative;
-  background: #1e7a46;
+  background: #1d201f;
   margin-bottom: 20px;
   border: 0;
+  
+}
+.socialsize{
+  width: 60px;
+  margin-top: 9px;
+  color: #000;
+}
+.hrV{
+  border-left: 1px solid rgb(41, 50, 41);
+  height: 200px;
 }
 /* Navigation */
 #menu {
   padding: 15px;
   transition: all 0.8s;
+  
 }
 #menu.navbar-default {
   background-color: #fff;
@@ -267,13 +278,16 @@ a:focus,
   -o-background-size: cover;
 }
 /* img-responsive-Header */
-.img-responsive-Header{
-  width: 548px;
-  margin-top: 93px;
+.dd{
+  margin-top: 20px;
+  height: 60rem;
 }
-
+.img-responsive- {
+  width: 348px;
+  margin-top: 30px;
+}
 .img--GLAM{
-  margin: 165px;
+  margin-top: 114px;
 }
 .cardd{
   position: absolute;
@@ -284,22 +298,22 @@ a:focus,
   margin-top: 146px;
   margin-left: 48em;
   background-color: #FFFFFF;
-  z-index: 999999
+  z-index: 1
 
  
 }
 
 .cardde{
   position: absolute;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-  text-align: center;
-  padding: 2.5em;
-  width: 24rem;
-  margin-top: -28px;
-  margin-left: -1em;
-  background-color: #FFFFFF;
-  z-index: 999999;
-  border-radius: 19px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    text-align: center;
+    padding: 17.5px;
+    width: 28rem;
+    margin-top: -47px;
+    margin-left: 0em;
+    background-color: #FFFFFF;
+    /* z-index: 999999; */
+    border-radius: 19px;
 }
 .img-responsiveee{
   padding: 0px;
@@ -352,19 +366,9 @@ header .intro-text {
 /* Features Section */
 #features {
   background: #f6f6f6;
+padding-bottom: 2rem;
 }
-#features i.fa {
-  font-size: 38px;
-  margin-bottom: 20px;
-  transition: all 0.5s;
-  color: #fff;
-  width: 100px;
-  height: 100px;
-  padding: 30px 0;
-  border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-}
+
 /* About Section */
 .aboutPartOne{
 /*   background: url(../img/page2.png) center center no-repeat;
@@ -429,13 +433,50 @@ header .intro-text {
   color: #fff;
 }
 
+.hi{
+  background: url(../img/portfolio/blue.png) center center no-repeat;
+}
 #services {
-  height: 1400px;
+  background: url(../img/portfolio/blue.png) center center no-repeat;
+  margin-top: 20px;
+  
 
+  
+  
+ /*  
   padding: 12px;
   background: url(../img/Componen.png) center center no-repeat;
-  color: #fff;
+  color: #fff; */
 }
+#services h4{
+  font-family: 'Ogg';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+.slider-arrow {
+  position: absolute;
+  z-index:99;
+  height: 100%;
+  width: 100px;
+  
+}
+.slick-slide {
+  height: 320px;
+  box-sizing: border-box;
+}
+
+.slick-slide img {
+  height: 100%;
+  width: 100%;
+  border: 2.5px solid white;
+  box-sizing: border-box;
+}
+
 #services .service-desc {
   margin: 10px 10px 20px;
 }
@@ -475,7 +516,7 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-  padding: 100px 0;
+  padding: 0 0;
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
@@ -564,13 +605,82 @@ header .intro-text {
 }
 /* Team Section */
 #team {
-  padding: 100px 0;
+/*   align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start; */
 }
-#team h4 {
-  margin: 5px 0;
+.catBytoon{
+  padding-left: 15px;
+  padding-right: 15px;
+
+background: #3E667B;
+border-radius: 31px;
 }
+#team label{
+  font-family: 'Plus Jakarta Sans';
+font-style: normal;
+
+color: #606060;
+}
+.l{
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 27px;
+  margin-bottom: 2px;
+  margin-bottom: 17;
+}
+
+.contentIcon{
+  margin-top: 23px;
+}
+.lab{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 193.5%;
+  margin-top: 12px;
+  /* or 35px */
+  
+  text-align: center;
+  
+  color: #6B6B6B;
+}
+.margin-top{
+  margin-top: 100px;
+}
+.TeamButton {
+  border-radius: 4px;
+  background-color: #41889D;
+  color: white;
+  font-weight: 390;
+  border: none;
+  padding: 12px;
+  margin-top: 9px;
+}
+#team h6 {
+  font-family: 'Ogg';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 140%;
+  color: #3A586A;}
+  #team h2{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 60px;
+line-height: 120%;
+/* identical to box height, or 72px */
+
+
+color: #333333;
+
+  }
+
 #team .team-img {
-  width: 240px;
+  width: 264px;
   border-radius: 20px;
 }
 #team .thumbnail {
@@ -581,12 +691,25 @@ header .intro-text {
   padding: 10px 0 0;
   color: #888;
 }
+.labaleicon{
+  background-color: rgb(245 245 245);
+  padding: 3px;
+  border-radius: 7px;
+  margin: 2px;
+  width: 43px;
+  text-align: center;
+}
+.margein{
+  margin-left: 82px;
+}
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
   background: #384757;
     color: rgba(255, 255, 255, 0.75);
 }
+
 #contact .section-title {
   margin-bottom: 40px;
 }
@@ -673,7 +796,12 @@ label {
   color: #777;
 }
 #contact .contact-item {
-  margin: 20px 0;
+  font-family: 'Plus Jakarta Sans';
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 196.5%;
+/* or 39px */
 }
 #contact .contact-item li{
   justify-content: end;
@@ -727,6 +855,86 @@ label {
 }
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
+}
+
+/* card css */
+
+
+
+.card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+/*   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+ */  overflow: hidden;
+  width: 300px;
+}
+.card-header img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ /*  padding: 20px;
+  min-height: 250px;
+  margin: 10px;
+} */}
+
+
+.tag {
+  background: #cccccc;
+  border-radius: 2px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  
+  }
+
+  .bb{
+    border: none;
+    padding: 9px 40px;  }
+  .up{
+    padding: 5px 10px;
+
+    position: relative;
+    top: -179;
+    left: -95;
+  }
+.tag-teal {
+  background-color: #47bcd4;
+}
+.tag-purple {
+  background-color: #5e76bf;
+}
+.tag-pink {
+  background-color: #cd5b9f;
+}
+
+.card-body p {
+  font-size: 8px;
+  margin: 0 0 40px;
+}
+.user {
+  display: flex;
+  margin-top: auto;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.user-info h5 {
+  margin: 0;
+}
+.user-info small {
+  color: #545d7a;
 }
 
 @media (max-width: 768px) {

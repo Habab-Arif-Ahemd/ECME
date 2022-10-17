@@ -130,7 +130,7 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
+      "img": "img/Rectan.png",
       "name": "Velit at dolorem dignissimos",
       "job": "It has survived not only five centuries, but also the leap"
     },
@@ -141,11 +141,6 @@
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Velit at dolorem dignissimos",
-      "job": "It has survived not only five centuries, but also the leap"
-    },
-    {
-      "img": "img/team/04.jpg",
       "name": "Velit at dolorem dignissimos",
       "job": "It has survived not only five centuries, but also the leap"
     }
